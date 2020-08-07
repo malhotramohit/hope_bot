@@ -20,6 +20,10 @@ intents:
 - preg_mother_med_enquiry
 - gratitude
 - bot_who_created_you
+- preg_mother_medicine_alert
+- preg_mother_creat_alert
+- preg_mother_create_alert
+- preg_mother_medicine_details
 responses:
   utter_greet:
   - text: Hey! How are you?
@@ -67,5 +71,13 @@ responses:
   - text: Welcome!!
   utter_who_created_you:
   - text: Greenhorns from UHG.
+  utter_which_alert:
+  - text: Which type of alert do you want me to configure ?
+  utter_mother_medicine_details:
+  - text: Please tell me your medicine details with schedule.
+  utter_alert_confirmed:
+  - text: Medicine Alert created.
+  utter_alert_summary:
+  - text: ABC medicine 1 time daily in Morining
 actions:
 - action_hello_world

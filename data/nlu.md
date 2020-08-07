@@ -121,3 +121,12 @@
 
 ## intent:bot_who_created_you
 - Who created you ?
+
+## intent:preg_mother_create_alert
+- Can you please create alert for me?
+
+## intent:preg_mother_medicine_alert
+- medicine alert
+
+## intent:preg_mother_medicine_details
+- [ABC](undefined)[ABC](undefined) Medicine 1 time daily in Morining

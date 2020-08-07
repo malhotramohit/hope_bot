@@ -66,3 +66,21 @@
 ## Who created you
 * bot_who_created_you
   - utter_who_created_you
+
+## Alerts
+* greet
+  - utter_greet
+* preg_mother_create_alert
+  - utter_which_alert
+* preg_mother_medicine_alert
+  - utter_mother_medicine_details
+* preg_mother_medicine_details
+   - utter_alert_confirmed
+   - utter_alert_summary
+   - utter_mother_anything_else
+* gratitude
+   - utter_welcome
+   - utter_mother_anything_else
+* preg_mother_emergency
+    - utter_emergency
+    - utter_takecare
