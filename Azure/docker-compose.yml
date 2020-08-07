@@ -1,0 +1,18 @@
+version: '3.0'
+services:
+  rasa:
+    image: mmalhotra2000/hope:rasa
+    ports:
+      - 5005:5005
+    volumes:
+      - ${WEBAPP_STORAGE_HOME}/site/wwwroot:/app
+    command:
+      - run
+      - --enable-api
+      - --cors
+      - "*"
+      - --endpoints endpoints.yml
+  app:
+    image: mmalhotra2000/hoperasa:action
+    expose:
+        - 5055
