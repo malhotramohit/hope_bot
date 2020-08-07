@@ -19,6 +19,7 @@ intents:
 - preg_mother_schedule_time
 - preg_mother_med_enquiry
 - gratitude
+- bot_who_created_you
 responses:
   utter_greet:
   - text: Hey! How are you?
@@ -53,7 +54,7 @@ responses:
   utter_gynae_confirmed:
   - text: Alright I have scheduled the appointment.
   utter_gynae_appointment_summary:
-  - text: Summary time '17:00:00' gynae 'Dummy' date '2020-08-09'
+  - text: Appointment confirmed with Doctor Dummy  at five PM  tomorrow
   utter_mother_med_prescriptions:
   - text: You have to take Medicine 1 , 1 doze each in morning and night
   utter_mother_med_add_edit_pres:
@@ -64,5 +65,7 @@ responses:
   - text: Okay!!
   utter_welcome:
   - text: Welcome!!
+  utter_who_created_you:
+  - text: Greenhorns from UHG.
 actions:
 - action_hello_world

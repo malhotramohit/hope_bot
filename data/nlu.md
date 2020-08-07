@@ -57,11 +57,10 @@
 - thank you
 - thanks alot
 
-
 ## intent:preg_mother_unwell
 - pain
 - stomach ache
-- gastric 
+- gastric
 - baby kicking
 - awful
 - terrible
@@ -69,8 +68,6 @@
 - extremely sad
 - not well
 - bad feeling
-
-
 
 ## intent:preg_mother_call_husband
 - Yes please call my Husband
@@ -83,11 +80,12 @@
 - call my gynae
 - gynae
 - call gynae
+- Call Dr
 
 ## intent:preg_mother_emergency
 - I am going to die
 - SOS
-- I am not able to bear this pain 
+- I am not able to bear this pain
 - emergency
 - die
 - extreme pain
@@ -120,3 +118,6 @@
 - I would like to know about my prescriptions ?
 - know about my prescriptions
 - my prescriptions
+
+## intent:bot_who_created_you
+- Who created you ?
